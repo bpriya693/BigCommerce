@@ -1,0 +1,20 @@
+README FILE.
+
+— The first installation made was for Sinatra. I cloned the Sinatra from Github. I ran it on my terminal using git clone followed by the url , which helped me in installing Sinatra. Sublime text was the used editor. The  program was written there and then using my terminal i did 
+
+—1) cd into the directory which contained my file.
+—2) the command ruby filename.rb is used in turning on the server to see the result.
+—-3) the terminal then mentions which port is opened to listen. After copy pasting the link of the url into the browser, the result is shown.
+
+—4) for part 2 in the url of http:// localhost:4567 , i added the endpoints /hello/BarackObama ,which gave me my 2nd output.
+—5) The server should be closed, after seeing the output by using CTRL-c.
+
+—6) I had first decided to use Silex Framework for the assignment. For using php, 3 components are needed. 
+—1) PHP
+—2)Well configured Server
+—3) A database probably(MySQL).
+
+—I was able to enable the web server apache through my Mac, but PHP was creating an issue to be enabled. According to me, it was due to the version of my Mac and the version of the php. I tried an entire day to solve that issue, went online referred to some really —good tutorials there for example,
+—http://jason.pureconcepts.net/2015/10/install-apache-php-mysql-mac-os-x-el-capitan/.But it still didn’t work. I followed each and every step as it is given in here, but it was creating issues. I had to believe towards the end that it is due to version issue of my mac and —-php. Towards the end i went through the hint again and decided to try sinatra, which worked really well for me. I found it really friendly and easy.
+
+The third question was pretty challenging . It was something new i worked with. The installations made for querying the twitter API was gem install omniauth-twitter.I created an application on twitter, which assigned me with a customer key and a customer secret key. I placed the keys inside the program which helped me further to get authenticated to twitter to extract the tweets.After which i collected the number of tweets for a day and displayed it using JSON hash.
